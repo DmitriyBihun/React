@@ -1,0 +1,46 @@
+.section {
+    padding: 1.5rem;
+    border: .0625rem solid #9d9d9d;
+    border-radius: .5rem;
+    margin-block: 2.5rem;
+}
+
+.popular-list {
+    display: flex;
+    flex-direction: column;
+    gap: .8rem;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: start;
+}
+
+.popular-item {}
+
+.popular-item:not(:last-child) {
+    border-bottom: .0625rem solid #9d9d9d;
+    margin-bottom: 1rem;
+}
+
+.popular-item--content {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    margin-bottom: .625rem;
+
+    img {
+        width: 50px;
+        height: 50px;
+    }
+
+    div {
+        display: flex;
+        flex-direction: column;
+        gap: .3125rem;
+
+        span {
+            align-self: flex-start;
+        }
+    }
+
+}

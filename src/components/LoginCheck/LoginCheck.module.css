@@ -1,0 +1,23 @@
+.section {
+    padding: 1.5rem;
+    border: .0625rem solid #9d9d9d;
+    border-radius: .5rem;
+    margin-bottom: 2.5rem;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+
+    margin-bottom: 1.25rem;
+
+    label {
+        display: flex;
+        gap: .5rem;
+        align-items: center;
+    }
+    input {
+        padding: .3125rem .375rem;
+    }
+}
