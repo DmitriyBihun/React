@@ -1,0 +1,26 @@
+.cell {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #333;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.hit-ship {
+    width: 40px;
+    height: 40px;
+    background-color: red;
+}
+
+.miss {
+    width: 40px;
+    height: 40px;
+    background-color: rgb(53, 168, 206);
+}
+
+table {
+    margin: 0 auto 20px auto;
+}
+.count-ship {
+    color: red;
+}

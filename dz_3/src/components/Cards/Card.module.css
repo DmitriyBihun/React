@@ -1,0 +1,20 @@
+.card {
+    padding: .625rem;
+    border: 1px solid #ababab;
+}
+.cardImageCont {
+    img {
+        width: 100%;
+        aspect-ratio: 347 / 266;
+        object-fit: cover;
+    }
+}
+.cardContent {
+    display: flex;
+    flex-direction: column;
+    gap: .625rem;
+}
+.cardLinks {
+    display: flex;
+    gap: 20px;
+}

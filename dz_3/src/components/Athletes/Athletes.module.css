@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    gap: 2.5rem;
+    justify-content: center;
+}
+
+.all-players,
+.selected-players {
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 300px;
+    min-height: 24.125rem;
+}
+
+.add {
+    padding: 5px 8px;
+    background-color: green;
+    cursor: pointer;
+}
+
+.remove {
+    padding: 5px 8px;
+    background-color: red;
+    cursor: pointer;
+}
+li {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: .5rem;
+}

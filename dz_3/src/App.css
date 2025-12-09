@@ -1,0 +1,23 @@
+#root {
+  max-width: 1030px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 15px;
+  text-align: center;
+}
+
+section {
+  padding: 1.5rem;
+  border: 1px solid #ccc;
+  border-radius: .5rem;
+
+  margin-bottom: 1rem;
+}
+h2, h3, h4, h5, p {
+  margin: 0;
+}
+ul {
+  list-style: none;
+  padding: 0;
+    margin: 0;
+}
