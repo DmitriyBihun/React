@@ -1,0 +1,43 @@
+.item {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: .3125rem .5rem;
+    border-radius: 5px;
+    margin-bottom: 1.25rem;
+    background-color: rgb(165, 154, 141);
+    
+}
+.item:nth-child(even) {
+    background-color: rgb(242, 239, 232);
+    color: #000;
+}
+
+
+.itemLike {
+    font-size: .75rem;
+}
+
+.actions {
+    display: flex;
+    gap: .5rem;
+    align-items: center;
+}
+
+.buttonLike {
+    transition: background-color .3s;
+
+    &:hover {
+        background-color: #ab0000;
+    }
+}
+
+.buttonDislike {
+    transition: background-color .3s;
+
+    &:hover {
+        background-color: #0055b6;
+    }
+}
