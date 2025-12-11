@@ -1,0 +1,11 @@
+.cart {
+    margin-top: .625rem;
+    display: flex;
+    gap: .5rem;
+    align-items: center;
+    background-color: #03af00;
+    width: max-content;
+    padding: .1875rem .375rem;
+    border-radius: .3125rem;
+    color: #fff;
+}

@@ -1,0 +1,36 @@
+.converter {
+    margin-block: 3.125rem;
+}
+
+.converterSelectBox {
+    display: flex;
+    gap: 1.25rem;
+
+    margin-bottom: 1rem;
+
+    label {
+        font-size: 1.25rem;
+    }
+}
+
+.converterInputBox label {
+    display: flex;
+    gap: 1.25rem;
+    font-size: 1.25rem;
+
+    margin-bottom: 1rem;
+}
+
+.converterInputBox input {
+    padding-inline: .3125rem;
+}
+
+.converterButtons {
+    display: flex;
+    gap: .625rem;
+    margin-bottom: 1rem;
+}
+
+.converterResult {
+    font-weight: 500;
+}
