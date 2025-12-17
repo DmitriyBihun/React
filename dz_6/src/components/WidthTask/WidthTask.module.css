@@ -1,0 +1,16 @@
+.WidthTaskSection {
+    padding: 1rem;
+    border: .0625rem solid #ffffff;
+    border-radius: .3125rem;
+    margin-bottom: 3.125rem;
+}
+
+.title {
+    margin-bottom: 1rem;
+}
+
+.image {
+    width: 200px;
+    aspect-ratio: 1;
+    object-fit: cover;
+}
