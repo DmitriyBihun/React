@@ -1,0 +1,19 @@
+.calculatorSection {
+    padding: 1rem;
+    border: .0625rem solid #ffffff;
+    border-radius: .3125rem;
+    margin-block: 3.125rem;
+}
+
+.calculatorInputBox {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+
+    margin-bottom: 1rem;
+}
+
+.calculatorBtn {
+    margin-top: 1rem;
+}
