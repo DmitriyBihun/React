@@ -1,0 +1,19 @@
+.container {
+    padding-top: 3.125rem;
+    display: flex;
+    gap: 3.125rem;
+    align-items: center;
+    justify-content: center;
+
+    h2 {
+        font-size: 1.5rem;
+        margin-bottom: 1.25rem;
+    }
+    img {
+        width: 12.5rem;
+    }
+    p {
+        margin-bottom: 1rem;
+    }
+    
+}

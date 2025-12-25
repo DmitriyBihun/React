@@ -1,0 +1,14 @@
+.mainContainer {
+    display: flex;
+    gap: 80px;
+
+    padding-block: 3.125rem;
+}
+.categoryLinks {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+}
+.categoryLink:focus-within {
+    color: orange;
+}

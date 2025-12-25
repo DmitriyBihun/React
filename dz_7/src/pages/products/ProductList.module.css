@@ -1,0 +1,13 @@
+.content {
+    width: 100%;
+
+    h2 {
+        font-size: 1.625rem;
+        margin-bottom: 1.25rem;
+    }
+}
+.cards {
+    display: grid;
+    gap: .9375rem;
+    grid-template-columns: repeat(auto-fill, minmax(min(320px, 100%), 1fr));
+}

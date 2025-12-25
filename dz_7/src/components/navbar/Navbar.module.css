@@ -1,0 +1,16 @@
+.nav {
+    padding: 1rem;
+    border: .0625rem solid #ccc;
+}
+.navList {
+    display: flex;
+    gap: 1.25rem;
+    justify-content: space-around;
+}
+.navLink {
+    color: white;
+    font-size: 18px;
+}
+.navLink.active {
+    border-bottom: .125rem solid orange;
+}
