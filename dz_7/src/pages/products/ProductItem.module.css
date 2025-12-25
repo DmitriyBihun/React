@@ -1,0 +1,27 @@
+.card {
+    padding: .625rem;
+    border: .0625rem solid #a5a5a5;
+    border-radius: .375rem;
+
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+    h3 {
+        font-size: 1.125rem;
+        line-height: 1.15;
+    };
+}
+.image {
+    width: 100%;
+    aspect-ratio: 300 / 180;
+    object-fit: cover;
+}
+.moreLink {
+    color: orange;
+    transition: color .3s ease;
+
+    &:hover {
+        color: rgb(255, 251, 243);
+    }
+}
