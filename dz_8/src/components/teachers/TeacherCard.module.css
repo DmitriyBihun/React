@@ -1,0 +1,75 @@
+.container {
+  display: flex;
+  margin-bottom: 20px;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid #a5d6a7;
+  /* світло-зелений */
+  border-radius: 8px;
+  padding: 10px 16px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  max-width: 500px;
+  font-family: sans-serif;
+}
+
+.section1 {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.section1 img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #4caf50;
+  /* зелена рамка */
+}
+
+.section1 div>div:first-child {
+  font-weight: bold;
+  color: #388e3c;
+  /* темно-зелений */
+  font-size: 16px;
+}
+
+.section1 div>div:last-child {
+  color: #757575;
+  /* сірий */
+  font-size: 14px;
+}
+
+.section1 div>div:last-child::before {
+  content: 'Предмет: ';
+  font-weight: bold;
+  color: #424242;
+}
+
+.section2 {
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+
+  .buttonBasic {
+    background-color: #4caf50;
+    &:hover {
+        background-color: #327534;
+      }
+  }
+
+  .buttonBlue {
+    background-color: blue;
+    &:hover {
+        background-color: rgb(76, 76, 242);
+      }
+  }
+
+  .buttonRed {
+    background-color: red;
+    &:hover {
+      background-color: rgb(198, 0, 0);
+    }
+  }
+}

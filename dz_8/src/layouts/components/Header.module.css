@@ -1,0 +1,15 @@
+.container {
+  display: flex;
+  gap: 20px;
+  justify-content: space-evenly;
+  font-size: 20px;
+
+  padding-block: 1rem;
+}
+.link {
+  color: white;
+  margin: 20px;
+}
+.active {
+  color: orange;
+}
