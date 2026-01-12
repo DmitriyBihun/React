@@ -1,0 +1,15 @@
+.page-layout {
+    min-height: calc(100vh - 60px);
+    padding: 20px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.page-layout.light {
+    background-color: #fff;
+    color: #000;
+}
+
+.page-layout.dark {
+    background-color: #333333;
+    color: #fff;
+}

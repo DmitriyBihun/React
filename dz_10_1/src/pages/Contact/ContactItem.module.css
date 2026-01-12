@@ -1,0 +1,10 @@
+.user {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    img {
+        align-self: start;
+        margin: 0 auto 1rem auto;
+    }
+}

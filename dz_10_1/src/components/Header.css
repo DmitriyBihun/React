@@ -1,0 +1,35 @@
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1rem;
+    padding: .625rem;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.header.light {
+    background-color: #ffffff;
+    color: #000;
+    border-bottom: 1px solid #ccc;
+}
+
+.header.dark {
+    background-color: #333333;
+    color: #fff;
+    border-bottom: 1px solid #555;
+}
+
+.header-nav {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.header-link {
+    text-decoration: none;
+    color: inherit;
+    font-weight: 500;
+    font-size: 1.25rem;
+}
+.header-link.active {
+    color: orange;
+}
