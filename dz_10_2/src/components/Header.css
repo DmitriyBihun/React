@@ -1,0 +1,24 @@
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1rem;
+    padding: 1.25rem .625rem 1.25rem .625rem;
+    border-bottom: .0625rem solid #000;
+}
+
+.header-nav {
+    display: flex;
+    gap: 3.125rem;
+    justify-content: center;
+}
+
+.header-link {
+    text-decoration: none;
+    color: inherit;
+    font-weight: 500;
+    font-size: 1.25rem;
+}
+.header-link.active {
+    color: orange;
+}

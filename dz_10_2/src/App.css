@@ -1,0 +1,22 @@
+#root {
+  max-width: 1300px;
+  margin: 0 auto;
+  /* padding: 2rem; */
+  text-align: center;
+}
+
+.grid {
+  padding-top: 1.875rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(313px, 100%), 1fr));
+  gap: 1rem;
+}
+.grid2 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+
+  div {
+    grid-column: span 2;
+  }
+}

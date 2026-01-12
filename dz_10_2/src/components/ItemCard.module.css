@@ -1,0 +1,22 @@
+.card {
+    padding: 8px;
+    border: 1px solid #494949;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+.cardImageBox {
+    flex-grow: 1;
+    img {
+            width: 100%;
+            aspect-ratio: 312 / 235;
+            object-fit: cover;
+        }
+}
+.cardContent {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
