@@ -1,0 +1,23 @@
+.title {
+    text-align: center;
+}
+
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+
+    padding-bottom: 1.875rem;
+
+    li {
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+
+        border: 1px solid gray;
+        padding: .5rem;
+
+        -webkit-box-shadow: 3px 3px 0px 0px #000000;
+            box-shadow: 3px 3px 0px 0px #000000;
+    }
+}

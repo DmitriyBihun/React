@@ -1,0 +1,24 @@
+.title {
+    text-align: center;
+}
+.contentHeader {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-bottom: 1.875rem;
+}
+
+.addLink {
+    padding: .5rem .625rem;
+    font-size: 1rem;
+    background-color: #f0858b;
+    border-radius: .3125rem;
+    transition: background-color .3s ease;
+    color: #fff;
+
+    &:hover {
+        background-color: #d78286;
+    }
+}
