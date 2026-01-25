@@ -1,0 +1,21 @@
+.doctorForm {
+    padding-block: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.buttons {
+    display: flex;
+    gap: .5rem;
+}
+
+.cancelBtn {
+    background-color: #ff033e;
+    border: 2px solid #ff033e;
+}

@@ -1,0 +1,12 @@
+.patientsContainer {
+    padding-block: 2rem;
+        text-align: center;
+}
+
+.title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.addPatientBtn {
+    margin-bottom: 1rem;
+}

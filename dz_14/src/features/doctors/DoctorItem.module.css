@@ -1,0 +1,9 @@
+.buttons {
+    display: flex;
+    gap: .5rem;
+}
+
+.deleteBtn {
+    background-color: #ff033e;
+    border: 2px solid #ff033e;
+}

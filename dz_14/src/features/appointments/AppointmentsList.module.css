@@ -1,0 +1,23 @@
+.container {
+    text-align: center;
+    padding-block: 2rem;
+
+    button {
+        margin-bottom: 1rem;
+    }
+}
+
+.title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.buttons {
+    display: flex;
+    gap: .5rem;
+}
+
+.deleteBtn {
+    background-color: #ff033e;
+    border: 2px solid #ff033e;
+}

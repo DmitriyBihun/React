@@ -1,0 +1,12 @@
+.doctorsContainer {
+        padding-block: 2rem;
+            text-align: center;
+}
+.title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.addDoctorBtn {
+    margin-bottom: 1rem;
+}

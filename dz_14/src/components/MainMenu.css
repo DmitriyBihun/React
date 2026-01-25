@@ -1,0 +1,12 @@
+.header-list {
+    display: flex;
+    gap: 50px;
+}
+
+.header-link.active {
+    color: #000;
+    background-color: #fff;
+    border: 1px solid #fff;
+    padding: 3px;
+    border-radius: 3px;
+}
