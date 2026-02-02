@@ -1,0 +1,12 @@
+.navList {
+    display: flex;
+    gap: 3.125rem;
+}
+.navItem {
+    transition: background-color .3s ease;
+    padding: 3px 5px;
+}
+.navItem.active {
+    background-color: #000;
+    color: #fff;
+}
