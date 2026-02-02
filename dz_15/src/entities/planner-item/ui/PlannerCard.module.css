@@ -1,0 +1,16 @@
+.cardContainer {
+    display: flex;
+    flex-direction: column;
+    gap: .625rem;
+
+    span {
+        background-color: #fff;
+        color: #000;
+        padding: 3px 5px;
+    }
+}
+.cardActions {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}

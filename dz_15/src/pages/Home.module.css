@@ -1,0 +1,13 @@
+.container {
+    padding-top: 3.125rem;
+    span {
+        display: block;
+        font-size: 12.5rem;
+    }
+}
+.firstSpan {
+    margin-left: 10vw;
+}
+.secondSpan {
+    margin-left: 25vw;
+}
