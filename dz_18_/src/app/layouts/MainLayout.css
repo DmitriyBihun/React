@@ -1,0 +1,17 @@
+.nav, .authorization {
+    display: flex;
+    gap: 1rem;
+}
+
+.nav-link {
+    border: none;
+    text-decoration: none;
+    color: #ffffff;
+    padding-bottom: 4px;
+    transition: all 0.2s;
+}
+
+
+.nav-link.active {
+    border: 1px solid #ffffff;
+}

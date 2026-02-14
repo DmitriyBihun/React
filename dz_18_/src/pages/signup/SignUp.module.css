@@ -1,0 +1,15 @@
+.signUpPage {
+    a {
+        color: #000;
+            border: 1px solid #000;
+            padding: 3px;
+            background-color: #fff;
+            transition: color .3s ease, background-color .3s ease;
+        
+            &:hover {
+                color: #fff;
+                border: 1px solid #fff;
+                background-color: #000;
+            }
+    }
+}

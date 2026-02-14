@@ -1,0 +1,149 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  border: none;
+
+  box-sizing: border-box;
+}
+
+*::before,
+*::after {
+  display: inline-block;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+  color: inherit;
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  vertical-align: middle;
+  max-width: 100%;
+}
+
+html,
+body {
+  /* line-height: 1; */
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+
+/* FORM */
+input,
+button,
+textarea {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  color: inherit;
+  background-color: transparent;
+}
+
+input,
+textarea {
+  width: 100%;
+}
+
+button,
+select,
+option {
+  cursor: pointer;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+  appearance: none;
+}
+
+/* ////////////////////////////////////////////////// */
+
+body {
+  font-family: "Jersey 10", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  background-color: #000;
+  color: #fff;
+}
+
+header {
+  background-color: #8a05ff;
+  min-height: 50px;
+  display: flex;
+  column-gap: 5rem;
+  align-items: center;
+  justify-content: center;
+
+  a {
+    border: 1px solid #fff;
+    padding: 3px;
+  }
+}
+main {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+button {
+  color: #000;
+  border: 1px solid #000;
+  padding: 3px;
+  background-color: #fff;
+  transition: color .3s ease, background-color .3s ease;
+
+  &:hover {
+    color: #fff;
+    border: 1px solid #fff;
+    background-color: #000;
+  }
+}
+
+h1 {
+  font-size: 2.5rem;
+  text-align: center;
+  padding-block: 1rem;
+}
+
+
+form {
+  width: 500px;
+  margin: 0 auto;
+  border: 1px solid #fff;
+  padding: 1rem;
+  margin-block: 1rem;
+
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+input {
+  max-width: 100%;
+  border: 1px solid #000;
+  background-color: #fff;
+  padding: 3px 5px;
+  color: #000;
+}
+
+.inputBox {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}

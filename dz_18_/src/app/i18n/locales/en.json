@@ -1,0 +1,28 @@
+{
+    "home": {
+        "title": "Home page"
+    },
+    "nav": {
+        "home": "Home",
+        "products": "Products",
+        "favourites": "Favourites",
+        "cart": "Cart",
+        "login": "Login",
+        "signUp": "Sign Up",
+        "logout": "Logout"
+    },
+    "products": {
+        "title": "Products",
+        "addProduct": "Add Product"
+    },
+    "cart": {
+        "title": "Shopping Cart",
+        "continueLink": "Continue shopping"
+    },
+    "login": {
+        "title": "Login"
+    },
+    "signUp": {
+        "title": "Sign Up"
+    }
+}
