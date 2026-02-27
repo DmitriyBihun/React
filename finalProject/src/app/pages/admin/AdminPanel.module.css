@@ -1,0 +1,13 @@
+.adminContainer {
+    h1 {
+        font-size: 2rem;
+        margin-block: 2rem;
+        text-align: center;
+    }
+}
+.notFountUser {
+    padding: 2rem;
+    background-color: #f9fafb;
+    border-radius: .5rem;
+    color: #000;
+}

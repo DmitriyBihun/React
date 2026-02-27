@@ -1,0 +1,16 @@
+.buyFormContainer {
+    h2 {
+        font-size: 1.375rem;
+        margin-bottom: .5rem;
+    }
+
+    button {
+        width: 100%;
+        background-color: #10b981;
+        color: #fff;
+
+        &:hover {
+            background-color: #0d9a6b;
+        }
+    }
+}

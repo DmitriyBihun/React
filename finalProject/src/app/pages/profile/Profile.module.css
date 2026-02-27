@@ -1,0 +1,106 @@
+.profileContainer {
+    h1 {
+        text-align: center;
+        margin: 1rem 0 3rem 0;
+        font-size: 2rem;
+    }
+}
+
+.profileContent {
+    display: grid;
+    grid-template-columns: 400px 1fr;
+    gap: 2rem;
+}
+
+.userInfo {
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: .5rem;
+
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    align-self: start;
+
+    h2 {
+        font-size: 1.25rem;
+        font-weight: 500;
+    }
+}
+
+.portfolioInfo {
+    h2 {
+        font-size: 1.25rem;
+        margin-bottom: 1rem;
+    }
+}
+
+.portfolioCoins {
+    display: grid;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.portfolioCoin {
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: .5rem;
+
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: space-between;
+
+    h3 {
+        font-size: 1.2rem;
+        font-weight: 500;
+    }
+
+    div {
+        display: flex;
+        flex-direction: column;
+        gap: .5rem;
+    }
+}
+
+.portfolioCoin:nth-child(even) {
+    background-color: #f1f5f9;
+}
+
+.countCoin,
+.avgPriceCoin {
+    color: #666;
+}
+
+.noCoinBox {
+    border: 1px solid #ddd;
+    border-radius: .5rem;
+    padding: 1rem;
+
+    p {
+        font-size: 1.1rem;
+        margin-bottom: 1rem;
+    }
+}
+
+.goBuyLink {
+    color: #fff;
+    background-color: #7871e5;
+    padding: .625rem;
+    border-radius: .3125rem;
+    transition: background-color .3s ease;
+
+    &:hover {
+        background-color: #5851de;
+    }
+}
+
+.errorLoadingBox {
+    margin-top: 1rem;
+    padding: .5rem;
+    color: #dc2626;
+    background-color: #fee2e2;
+    border-radius: .3125rem;
+    text-align: center;
+
+}

@@ -1,0 +1,62 @@
+.loginContainer {
+    max-width: 25rem;
+    margin: 2.5rem auto;
+    padding: 1.5rem;
+    border: 1px solid #ddd;
+    border-radius: .5rem;
+
+    h1 {
+        text-align: center;
+        margin-bottom: 1rem;
+        font-size: 2rem;
+    }
+}
+
+.errorBlock {
+    padding: .625rem;
+    background-color: #fee2e2;
+    color: #dc2626;
+    border-radius: .3125rem;
+    margin-bottom: 1rem;
+}
+
+.orContainer {
+    display: flex;
+    align-items: center;
+    margin-block: 1rem;
+    color: #666;
+
+    div {
+        flex: 1;
+        height: 1px;
+        background-color: #ddd;
+    }
+
+    span {
+        font-size: .875rem;
+        padding: 0 .625rem;
+    }
+}
+
+.googleButton {
+    width: 100%;
+    border: 1px solid #ddd;
+    color: #000;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+}
+.loginText {
+    text-align: center;
+    margin-top: 1rem;
+    color: #666;
+}
+.signUpLink {
+    color: #3b82f6;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}

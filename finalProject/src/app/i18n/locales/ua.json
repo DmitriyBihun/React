@@ -1,0 +1,131 @@
+{
+    "nav": {
+        "home": "Головна",
+        "dashboard": "Панель монет",
+        "profile": "Профіль",
+        "login": "Увійти",
+        "logout": "Вийти",
+        "admin": "Адмін. панель"
+    },
+    "common": {
+        "buy": "Купити",
+        "sell": "Продати",
+        "details": "Детальніше",
+        "back": "Назад",
+        "balance": "Баланс",
+        "loading": "Завантаження...",
+        "error": "Помилка",
+        "save": "Зберегти",
+        "cancel": "Скасувати",
+        "confirm": "Підтвердити",
+        "search": "Пошук",
+        "wait": "Будь-ласка зачекайте..."
+    },
+    "dashboard": {
+        "title": "Топ-20 криптовалют",
+        "searchPlaceholder": "Введіть назву монети...",
+        "found": "Знайдено монет",
+        "noResults": "Монети не знайдено за запитом",
+        "resetSearch": "Скинути пошук",
+        "loading": "Завантаження даних...",
+        "error": "Помилка завантаження даних"
+    },
+    "coin": {
+        "currentPrice": "Поточна ціна",
+        "priceChange24h": "Зміна за 24г",
+        "marketCap": "Ринкова капіталізація",
+        "volume24h": "Об'єм за 24г",
+        "high24h": "Макс. за 24г",
+        "low24h": "Мін. за 24г",
+        "description": "Опис монети",
+        "youHave": "У вас",
+        "youWillReceive": "Ви отримаєте",
+        "enterAmountUSD": "Введіть суму в доларах",
+        "enterAmountCoin": "Введіть кількість",
+        "max": "Максимум"
+    },
+    "profile": {
+        "title": "Особистий кабінет",
+        "accountInfo": "Інформація про акаунт",
+        "email": "Email",
+        "balance": "Баланс",
+        "portfolioValue": "Вартість портфеля",
+        "totalCapital": "Загальний капітал",
+        "myPortfolio": "Мій портфель",
+        "noCoins": "У вас поки немає монет у портфелі.",
+        "goToDashboard": "Перейти до покупки монет",
+        "amount": "Кількість",
+        "avgPrice": "Середня ціна",
+        "currentPrice": "Поточна ціна"
+    },
+    "admin": {
+        "title": "Панель адміністратора",
+        "users": "Користувачі",
+        "user": "Користувач",
+        "email": "Email",
+        "balance": "Баланс",
+        "portfolio": "Портфель",
+        "status": "Статус",
+        "actions": "Дії",
+        "active": "Активний",
+        "blocked": "Заблокований",
+        "unblocked": "Розблокований",
+        "block": "Заблокувати",
+        "unblock": "Розблокувати",
+        "you": "Ви",
+        "noUsers": "Користувачів не знайдено",
+        "coins": "монет"
+    },
+    "home": {
+        "firstText": "Криптотрейдинг без ризику для вашого капіталу.",
+        "secondText": "Ми даємо вам стартовий баланс $10,000 щоб ви могли:",
+        "thirdText": "Це ідеальне середовище для новачків та тих, хто хоче відточити свої навички перед виходом на реальний ринок.",
+        "listItemFirst": "Торгувати топ-20 криптовалютами",
+        "listItemSec": "Відстежувати зміни ринку",
+        "listItemThird": "Тестувати власні стратегії",
+        "listItemFourth": "Вчитися приймати виважені торговельні рішення",
+        "startTradeLink": "Розпочати трейдинг"
+    },
+    "auth": {
+        "login": "Вхід",
+        "signup": "Реєстрація",
+        "email": "Email",
+        "password": "Пароль",
+        "confirmPassword": "Підтвердіть пароль",
+        "noAccount": "Немає акаунту?",
+        "hasAccount": "Вже є акаунт?",
+        "register": "Зареєструватися",
+        "loginWithGoogle": "Увійти з Google",
+        "signupWithGoogle": "Зареєструватися з Google",
+        "or": "АБО"
+    },
+    "messages": {
+        "success": {
+            "purchase": "Успішно куплено",
+            "sale": "Успішно продано",
+            "userBlocked": "Користувача заблоковано",
+            "userUnblocked": "Користувача розблоковано"
+        },
+        "error": {
+            "insufficientFunds": "Недостатньо коштів на балансі",
+            "insufficientCoins": "У вас тільки",
+            "purchaseFailed": "Помилка при купівлі",
+            "saleFailed": "Помилка при продажі",
+            "loadUsersFailed": "Помилка завантаження користувачів",
+            "passwordsNotMatch": "Паролі не співпадають",
+            "passwordTooShort": "Пароль має бути не менше 6 символів",
+            "errorLoadingCoinPrices": "Помилка завантаження цін монет. Деякі дані можуть бути неактуальними.",
+            "errorLoadingUserData": "Помилка завантаження даних користувача.",
+            "errorWhileUpdatingStatus": "Помилка під час оновлення статусу."
+        }
+    },
+    "chart": {
+        "noDataForTheGraph": "Немає даних для графіка.",
+        "price": "Ціна",
+        "priceChart": "Графік ціни",
+        "period": "за 7 днів",
+        "minPriceFor7Days": "Мінімум за 7 днів",
+        "maxPriceFor7Days": "Максимум за 7 днів",
+        "changeIn7Days": "Зміна за 7 днів"
+    }
+}
