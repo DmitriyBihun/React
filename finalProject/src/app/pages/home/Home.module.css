@@ -1,0 +1,52 @@
+.heroContainer {
+    padding-block: 2rem;
+
+    h1 {
+        font-size: 3rem;
+        font-weight: 500;
+        margin-bottom: 2rem;
+        text-align: center;
+    }
+}
+
+.heroContent {
+    display: grid;
+    grid-template-columns: 473px 1fr;
+    gap: 3.75rem;
+}
+
+.imagesBox {
+    display: flex;
+    gap: 1rem;
+}
+.imagesBox img:first-child {
+    max-width: 212px;
+    height: 220px;
+    align-self: self-end;
+}
+
+.heroDescr {
+    padding-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    p,li {
+        line-height: 1.3;
+        font-size: 1.125rem;
+    }
+}
+
+.goTradeLink {
+    padding: .625rem;
+    border-radius: .3125rem;
+    color: #fff;
+    background-color: #7871e5;
+    transition: background-color .3s ease;
+    margin-top: 1rem;
+
+    align-self: start;
+
+    &:hover {
+        background-color: #5851de;
+    }
+}

@@ -1,0 +1,16 @@
+.sellFormContainer {
+    h2 {
+        font-size: 1.375rem;
+        margin-bottom: .5rem;
+    }
+
+    button {
+        width: 100%;
+        background-color: #ef4444;
+        color: #fff;
+
+        &:hover {
+            background-color: #c13838;
+        }
+    }
+}
